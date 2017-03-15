@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sing-spring-cloud-eureka-client5
+server:
+  port: 8085
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
