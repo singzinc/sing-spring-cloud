@@ -16,6 +16,7 @@ public class Application {
  
     @RequestMapping("/info")
     public String info() {
+    	System.out.println("this is test");
         return "the message from client 3";
     }
 }
