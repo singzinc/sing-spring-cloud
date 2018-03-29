@@ -27,12 +27,12 @@ import org.slf4j.LoggerFactory;
 public class TestController {
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
+	/*
 	 @RequestMapping("/info")
 	    public String info() {
-		 
 	        return "the message from client 4";
 	    }
-	 
+	 */
 	 
 	 @ApiOperation(value = "Test hello world ", notes = " this is notes " )
 	 @ApiImplicitParams(
