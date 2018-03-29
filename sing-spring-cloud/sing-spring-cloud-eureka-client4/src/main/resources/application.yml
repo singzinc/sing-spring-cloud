@@ -7,3 +7,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      
+
+
+  logging:
+    level:
+      org.springframework.web: DEBUG
+      com.singplayground.eureka.client4.controller: DEBUG
